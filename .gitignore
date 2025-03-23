@@ -1,0 +1,53 @@
+# Ignore Robust Fusion Packages
+
+/robust_fusion/build/
+/robust_fusion/devel/
+/robust_fusion/logs/
+/robust_fusion/.catkin_tools/
+
+/robust_fusion/src/catkin_simple/
+/robust_fusion/src/ethzasl_msf/
+/robust_fusion/src/faster-lio/
+/robust_fusion/src/fast_gicp/
+/robust_fusion/src/FAST_LIO/
+/robust_fusion/src/glog_catkin/
+/robust_fusion/src/hdl_graph_slam/
+/robust_fusion/src/ndt_omp/
+/robust_fusion/src/orocos_kinematics_dynamics/
+/robust_fusion/src/perception_pcl/
+/robust_fusion/src/Point-LIO/
+/robust_fusion/src/slam-gmapping/
+/robust_fusion/src/ws_livox/
+/robust_fusion/src/env/
+
+**/*.bag
+
+# Ignore vbreath
+/vbreath/build/
+/vbreath/devel/
+/vbreath/logs/
+/vbreath/.catkin_tools/
+
+
+# Ignore build related files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore logs
+*.log
+*.env
+*.venv
+
+
